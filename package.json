@@ -1,0 +1,29 @@
+{
+  "name": "task-internet-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IugAnemona/ProdukTabel-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IugAnemona/ProdukTabel-backend/issues"
+  },
+  "homepage": "https://github.com/IugAnemona/ProdukTabel-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prisma": "^4.16.1",
+    "sucrase": "^3.32.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.16.1",
+    "express": "^4.18.2"
+  }
+}
